@@ -182,6 +182,7 @@ i{
   padding: 8px;
   border: 0.5rem;
   padding-inline: 20px;
+  color: white;
 }
 
 .car-contanier .ttt{
@@ -234,6 +235,7 @@ i{
   text-decoration: none;
   font-size: 0.9rem;
   gap: 700px;
+  position: relative;
 }
 
 .car-contant{
