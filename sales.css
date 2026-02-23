@@ -52,7 +52,7 @@ body {
 .btn :hover{
   background-color: burlywood;
   color: antiquewhite;
-}
+} 
 
 .hero {
   display: flex;
@@ -89,7 +89,7 @@ nav :hover{
 
 .btn outline :hover{
   color: #111;
-}
+} 
 
 .hero-image img {
   width: 100%;

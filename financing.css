@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #0a0f1a, #05070d);
+    color: white;
+}
+
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  color: #777;
+}
+
+.header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ccc;
+}
+
+.logoss {
+  font-size: 24px;
+  color: #aaa;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-top: 10px;
+    color: #ccc;
+}
+
+.subtitle {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 60px;
+}
+
+.card {
+    background: #0f1624;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.card p {
+    font-size: 12px;
+    padding: 10px;
+    color: #bbb;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 60px;
+    text-align: center;
+}
+
+.info h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.bottom-car {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.bottom-car img {
+    width: 80%;
+    max-width: 900px;
+}
+
+@media (max-width: 900px) {
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+}
